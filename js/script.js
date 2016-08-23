@@ -12,7 +12,6 @@ var myBody;
 function do_game() {
     target_index = Math.floor(Math.random() * 4);
     target = colors[target_index];
-    alert(target);
     while(!finished) {
         guess_input = prompt("I'm thinking of one of these colors:\n" + colors.sort().join(", ") +
             "\nWhat color am I thinking of?", "");
